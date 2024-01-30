@@ -1,40 +1,32 @@
 # Bỏ qua thư mục node_modules và tất cả nội dung bên trong
-node_modules
+node_modules/
 
-# Bỏ qua tệp cấu hình địa phương (ví dụ .env)
+# Bỏ qua tệp cấu hình địa phương (ví dụ: .env)
 .env
 
 # Bỏ qua các tệp đăng nhập hoặc chứa thông tin nhạy cảm
-.log
+*.log
 credentials.json
 
 # User-specific files
-.suo
-.user
-.userosscache
-.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-.vsidx
+*.vsidx
 
-# User-specific files (MonoDevelopXamarin Studio)
-.userprefs 
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs 
 
 # Build results
-[Dd]ebug
-[Dd]ebugPublic
-[Rr]elease
-[Rr]eleases
-x64
-x86
-bld
-[Bb]in
-[Oo]bj
-[Ll]og
-eShop.API.json
-eShop.API.json
-eShop.APIbin
-eShop.APIobj
-eShop.APIpackages
-eShop.APIRelease
-eShop.API.vs
-eShop.APIMigrations
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/

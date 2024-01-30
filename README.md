@@ -2,7 +2,7 @@
 
 ## Description
 
-Dự án E-Commerce này được phát triển để cung cấp một nền tảng mua sắm trực tuyến đầy đủ chức năng. Dự án bao gồm cả phần backend, frontend, CMS và được xây dựng bằng các công nghệ hiện đại như C# .NET 6 WebAPI cho phần backend và React TypeScript cho phần frontend.
+This E-Commerce project is developed to provide a fully functional online shopping platform. The project includes backend, frontend, CMS and is built using modern technologies such as C# .NET 6 WebAPI for the backend and React TypeScript for the frontend.
 
 ## Technical
 

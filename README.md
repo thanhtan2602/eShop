@@ -2,14 +2,14 @@
 
 ## Description
 
-This E-Commerce project is developed to provide a fully functional online shopping platform. The project includes backend, frontend, CMS and is built using modern technologies such as C# .NET 6 WebAPI for the backend and React TypeScript for the frontend.
+This E-Commerce project is developed to provide a fully functional online shopping platform. The project includes backend, frontend, CMS and is built using modern technologies such as C# .NET 7 WebAPI for the backend and React TypeScript for the frontend.
 
 ## Technical
 
 ### Backend
 
-- **Language:** C# (.NET 6)
-- **Framework:** ASP.NET Core 6 WebAPI
+- **Language:** C# (.NET 7)
+- **Framework:** ASP.NET Core 7 WebAPI
 - **Database:** SQL Server, PostgreSQL, MongoDB, v.v.
 - **ORM:** Entity Framework Core
 - **Library management:** NuGet
@@ -24,8 +24,8 @@ This E-Commerce project is developed to provide a fully functional online shoppi
 
 ### CMS (Content Management System)
 
-- **Language:** C# (.NET 6)
-- **Framework:** ASP.NET Core 6 MVC
+- **Language:** C# (.NET 7)
+- **Framework:** ASP.NET Core 7 MVC
 - **Library management:** NuGet
 - **Database: SQL Server, PostgreSQL, MongoDB, v.v.
 

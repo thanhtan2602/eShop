@@ -2,10 +2,10 @@
 
 namespace eShop.API.Models
 {
-    public class User : IdentityUser<Guid>
+    public class User : IdentityUser
     {
-        public string FullName { get; set; } = string.Empty;
-        public string Image { get; set; } = string.Empty;
-        public bool IsActive { get; set; } = true;
+        public string FullName { get; set; }
+        public string Image { get; set; }
+        public bool IsActive { get; set; }
     }
 }

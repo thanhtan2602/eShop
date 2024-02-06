@@ -27,8 +27,4 @@
     <ProjectReference Include="..\eShop.Library\eShop.Library.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
-
 </Project>

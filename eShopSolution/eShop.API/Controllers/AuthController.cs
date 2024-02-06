@@ -1,4 +1,5 @@
 ﻿using eShop.API.Services;
+using eShop.API.ViewModels.QueryModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eShop.API.Controllers
@@ -33,19 +34,6 @@ namespace eShop.API.Controllers
             // For simplicity, generate a JWT token and return it
             var token = _jwtService.GenerateJwtToken(request.UserId);
             return Ok(new { Token = token });
-        }
-
-        public class SignUpRequest
-        {
-            public string UserId { get; set; }
-            public string Password { get; set; }
-            // Add other signup fields as needed
-        }
-
-        public class SignInRequest
-        {
-            public string UserId { get; set; }
-            public string Password { get; set; }
         }
     }
 }

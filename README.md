@@ -16,10 +16,10 @@ This E-Commerce project is developed to provide a fully functional online shoppi
 
 ### Frontend
 
-- **Language:** TypeScript
-- **UI library:** React ** Material UI
+- **Language:** React typeScript
+- **UI library:** Material UI, SCSS
 - **Library package management:** npm or yarn
-- **Status management:** Redux (optional)
+- **Status management:** Redux, Redux toolkit
 - **Routing:** React Router
 
 ### CMS (Content Management System)

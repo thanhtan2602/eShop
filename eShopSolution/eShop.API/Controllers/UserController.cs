@@ -6,11 +6,11 @@ namespace eShop.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly IJwtService _jwtService;
 
-        public AuthController(IJwtService jwtService)
+        public UserController(IJwtService jwtService)
         {
             _jwtService = jwtService;
         }

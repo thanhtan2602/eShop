@@ -33,7 +33,7 @@ This E-Commerce project is developed to provide a fully functional online shoppi
 
 - **GitHub Repository:** https://github.com/thanhtan2602/eShop
 
-## Hướng Dẫn Cài Đặt
+## Setup tutorial
 
 1. **Backend:**
    - Open solution by Visual studio or VSCode

@@ -6,7 +6,7 @@ import { SnackbarProvider } from "notistack";
 import { store } from "./storage";
 import { Header, Footer } from './components/layout';
 import Home from './components/pages/Home';
-import { GoogleSignIn, GoogleSignUp } from './components/pages/user';
+import { SignIn, SignUp } from './components/pages/user';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -16,13 +16,13 @@ root.render(
   <Provider store={store}>
     <BrowserRouter>
       <SnackbarProvider maxSnack={3} autoHideDuration={3000}>
-        <Header />
+        {/* <Header /> */}
         <Routes>
           <Route path='/' element={<Home />}></Route>
-          <Route path='/sign-up' element={<GoogleSignUp />}></Route>
-          <Route path='/sign-in' element={<GoogleSignIn />}></Route>
+          <Route path='/sign-up' element={<SignUp />}></Route>
+          <Route path='/sign-in' element={<SignIn />}></Route>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </SnackbarProvider>
     </BrowserRouter>
   </Provider>

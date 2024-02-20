@@ -6,7 +6,6 @@ import { Footer, Header } from "../components/layout";
 
 
 export default function App() {
-
     const location = useLocation();
     const isNeedRenderLayout = location.pathname !== '/sign-in' && location.pathname !== '/sign-up' && location.pathname !== '/404'
 

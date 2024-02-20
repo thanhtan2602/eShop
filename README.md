@@ -16,10 +16,10 @@ This E-Commerce project is developed to provide a fully functional online shoppi
 
 ### Frontend
 
-- **Language:** TypeScript
-- **UI library:** React
+- **Language:** React typeScript
+- **UI library:** Material UI, SCSS
 - **Library package management:** npm or yarn
-- **Status management:** Redux (optional)
+- **Status management:** Redux, Redux toolkit
 - **Routing:** React Router
 
 ### CMS (Content Management System)
@@ -33,7 +33,7 @@ This E-Commerce project is developed to provide a fully functional online shoppi
 
 - **GitHub Repository:** https://github.com/thanhtan2602/eShop
 
-## Hướng Dẫn Cài Đặt
+## Setup tutorial
 
 1. **Backend:**
    - Open solution by Visual studio or VSCode
